@@ -38,17 +38,30 @@
 
 // 3. Right triangle pattern 
 
+// let n = 5;
+// let string = "";
+// for(let i = 0; i < n; i++){
+//     for(let j = 0; j <= n- i; j++){
+//         string += " ";
+//     }
+//     for(let k = 0; k <=i; k++){
+//         string += "*";
+//     }
+//     string += "\n";
+// }
+// console.log(string)
+
+
+// 4. Left triangle pattern 
+
 let n = 5;
 let string = "";
 for(let i = 0; i < n; i++){
-    for(let j = 0; j <= n- i; j++){
-        string += " ";
-    }
-    for(let k = 0; k <=i; k++){
+    for(let j = 0; j <= i; j++){
         string += "*";
     }
     string += "\n";
 }
-console.log(string)
 
+console.log(string);
 
